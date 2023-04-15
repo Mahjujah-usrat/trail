@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container col-md-12">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/blood.png" alt="Logo" />
+          <!-- Replace with your logo image -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >HOME <span class="sr-only"></span
+                ></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  FIND DONNERS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="request.html">A+</a>
+                  <a class="dropdown-item" href="request.html">A-</a>
+                  <a class="dropdown-item" href="request.html">B+</a>
+                  <a class="dropdown-item" href="request.html">A+</a>
+                  <a class="dropdown-item" href="request.html">A-</a>
+                  <a class="dropdown-item" href="request.html">B+</a>
+                  <a class="dropdown-item" href="request.html">A+</a>
+                  <a class="dropdown-item" href="request.html">A-</a>
+                  <a class="dropdown-item" href="request.html">B+</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html">BECOME A DONNERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">BLOG</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <h2 class="regis">REGISTRATION FORM</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter name"
+            name="name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="blood-group">Gender*:</label>
+          <select class="form-control" id="blood-group" name="blood-group">
+            <option value="A+">Male</option>
+            <option value="A-">Female</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter email"
+            name="email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="blood-group">Blood Group:</label>
+          <select class="form-control" id="blood-group" name="blood-group">
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="birthday">Date of birth:</label>
+          <input
+            type="birthday"
+            class="form-control"
+            id="birthday"
+            placeholder="Enter: mm/dd/yy"
+            name="birthday"
+          />
+        </div>
+        <div class="form-group">
+          <label for="birthday">Blood donation last date:</label>
+          <input
+            type="birthday"
+            class="form-control"
+            id="birthday"
+            placeholder="Enter: mm/dd/yy"
+            name="birthday"
+          />
+        </div>
+        <div class="form-group">
+          <label for="name">Present Address:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="Address"
+            placeholder="Enter Present Address"
+            name="Address"
+          />
+        </div>
+        <div class="form-group">
+          <label for="contact">Contact Number:</label>
+          <input
+            type="tel"
+            class="form-control"
+            id="contact"
+            placeholder="Enter contact number"
+            name="contact"
+          />
+        </div>
+        <div class="form-group">
+          <label for="blood-group">Blood Donation Time:</label>
+          <select class="form-control" id="blood-group" name="blood-group">
+            <option value="A+">0Time</option>
+            <option value="A-">1</option>
+            <option value="B+">2</option>
+            <option value="B-">3</option>
+            <option value="AB+">4</option>
+            <option value="AB-">5</option>
+            <option value="O+">6</option>
+            <option value="O-">7</option>
+            <option value="A-">8</option>
+            <option value="B+">9</option>
+            <option value="B-">10</option>
+            <option value="AB+">11</option>
+            <option value="AB-">12</option>
+            <option value="O+">13</option>
+            <option value="O-">14</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+    </div>
+    <br />
+    <!----footer-->
+    <footer class="footer text-center">
+      <p>
+        &copy; 2023 altrazen.com All rights reserved. |
+        <a href="https://altrazen.com/">Altrazen.Com</a> |
+        <a href="#">Terms of Service</a>
+      </p>
+    </footer>
+  </body>
+</html>
